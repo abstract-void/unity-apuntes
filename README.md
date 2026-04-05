@@ -4,5 +4,6 @@ Este repositorio contiene apuntes con explicaciones, ejemplos y demostraciones q
 
 Esta es la lista de contenidos incluidos hasta el momento:
 
-- Corrutinas.
 - Parámetros de salida (out).
+- Palabra clave *static*.
+- Corrutinas.
