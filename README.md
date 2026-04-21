@@ -4,6 +4,7 @@ Este repositorio contiene apuntes con explicaciones, ejemplos y demostraciones q
 
 Esta es la lista de contenidos incluidos hasta el momento:
 
+- [Conceptos generales](/Unity_apuntes_project/Assets/Scripts/Conceptos_Generales/ConceptosGeneralesApuntes.cs)
 - [Variables](/Unity_apuntes_project/Assets/Scripts/Variables)
   - [Declaración e inicialización de variables](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creacion_De_Variables/CreacionDeVariablesApuntes.cs)
   - [Uso de variables](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesApuntes.cs)
