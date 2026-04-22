@@ -2,10 +2,20 @@ using UnityEngine;
 
 public class CreacionDeVariablesApuntes : MonoBehaviour
 {
+	// -------------------------------------------------- A. VARIABLES --------------------------------------------------
+
+
 	// Las variables sirven para almacenar o guardar datos (números, textos...) mientras el programa se está ejecutando
 	// Las variables son importantes por dos motivos:
-	//		- Nos permiten darles un nombre a todos los datos que vamos a usar, lo que nos ayuda a identificar con facilidad qué es cada cosa
-	//		- Se crean una única vez, pero se pueden usar tantas veces como queramos (y, si modificamos el dato de una variable, ese dato cambiará en todos los sitios donde estemos usando la variable)
+	//		- Nos permiten darles un nombre único a todos los datos que vamos a usar, lo que nos ayuda a identificar con facilidad qué es cada cosa
+	//		- Se crean una sola vez, pero se pueden usar tantas veces como queramos (y, si modificamos el dato de una variable, ese dato cambiará en todos los sitios donde estemos usando la variable)
+
+
+	// ----- Realiza los ejercicios del siguiente documento: CreacionDeVariablesEjerciciosA -----
+	
+
+	// -------------------------------------------------- B. DECLARACIÓN DE VARIABLES --------------------------------------------------
+
 
 	// Antes de poder usar una variable, tenemos que crearla e inicializarla (inicializar una variable es guardar un dato en ella por primera vez)
 	// A la hora de crearla, necesitamos poner (al menos) dos informaciones: de qué tipo es la variable y qué nombre le vamos a dar
@@ -35,6 +45,10 @@ public class CreacionDeVariablesApuntes : MonoBehaviour
 	string texto;	// Conjunto de caracteres que forman un texto
 	bool booleano;	// Verdadero o falso
 	
+
+	// -------------------------------------------------- C. INICIALIZACIÓN DE VARIABLES --------------------------------------------------
+
+	
 	// Esto que acabamos de hacer aquí arriba se llama "declarar" (crear) variables, pero sin inicializarlas (es decir, sin guardar ningún dato en ellas)
 	// Sin embargo, las variables también se pueden inicializar al mismo tiempo que se declaran
 	// Para inicializar una variable se utiliza el símbolo de igual =
@@ -59,4 +73,13 @@ public class CreacionDeVariablesApuntes : MonoBehaviour
 	//int entero; // ¡Error! Esto no se puede hacer porque arriba ya existe una variable con este mismo nombre
 
 	// Como nota final, siempre que se declare o se inicialice una variable, al final de la línea tendremos que poner sí o sí un punto y coma
+
+	void Awake()
+	{
+		Debug.Log(numeroEntero);
+		Debug.Log(numeroReal);
+		Debug.Log(caracter2);
+		Debug.Log(holaMundo);
+		Debug.Log(encendido);
+	}
 }

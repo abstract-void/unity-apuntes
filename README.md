@@ -6,7 +6,9 @@ Esta es la lista de contenidos incluidos hasta el momento:
 
 - [Conceptos generales](/Unity_apuntes_project/Assets/Scripts/Conceptos_Generales/ConceptosGeneralesApuntes.cs)
 - [Variables](/Unity_apuntes_project/Assets/Scripts/Variables)
-  - [Declaración e inicialización de variables](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creacion_De_Variables/CreacionDeVariablesApuntes.cs)
+  - [Declaración e inicialización de variables](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables)
+    - [Apuntes](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/CreacionDeVariablesApuntes.cs)
+    - [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/1_Creación_De_Variables/CreacionDeVariablesEjerciciosA.cs)
   - [Uso de variables](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/UsoDeVariablesApuntes.cs)
   - [Operaciones con variables](/Unity_apuntes_project/Assets/Scripts/Variables/3_Operaciones_Con_Variables/OperacionesConVariablesApuntes.cs)
 - [Bucles](/Unity_apuntes_project/Assets/Scripts/Bucles/BuclesApuntes.cs)
