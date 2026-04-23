@@ -87,21 +87,21 @@ public class CreacionDeVariablesApuntes : MonoBehaviour
 	// -------------------------------------------------- D. INICIALIZACIÓN DE VARIABLES --------------------------------------------------
 
 	
-	// Esto que acabamos de hacer aquí arriba se llama "declarar" (crear) variables, pero sin inicializarlas (es decir, sin guardar ningún dato en ellas)
+	// Esto que acabamos de hacer aquí arriba se llama declarar (crear) variables, pero sin inicializarlas (es decir, sin guardar ningún dato en ellas)
 	// Aunque declarar una variable sin inicializarla puede ser correcto y a veces nos interesará hacerlo así, en otras ocasiones nos va a venir mejor declararlas e inicializarlas a la vez
-	// Para inicializar una variable tendremos que utilizar el símbolo de igual (=) seguido del dato que queramos guardar en la variable
+	// Para inicializar una variable (guardar un dato en ella) tendremos que utilizar el símbolo de igual (=) seguido del dato que queramos guardar en la variable
 
 	// Según el tipo que tenga la variable, podremos asignarle unos datos u otros
 	// Y a esos datos a veces es necesario añadirles ciertas "marcas" para distinguirlos
-	//		- Los datos de tipo float llevan detrás una letra 'f' (o 'F')
+	//		- Los datos de tipo float llevan detrás una letra 'f' (o 'F') y, en caso de tener decimales, se separan con un punto (no una coma)
 	//		- Los datos de tipo char se escriben entre comillas simples
 	//		- Los datos de tipo string se escriben entre comillas dobles
-	//		- Los booleanos no llevan ningún tipo de marca especial, pero su valor solo puede ser "true" o "false"
+	//		- Los booleanos no llevan ningún tipo de marca especial, pero su valor solo puede ser true o false
 
 	// Ejemplos:
 
 	int ejemploNumeroEntero = 1;			// Los números int no llevan nada especial
-	float ejemploNumeroReal = 3.14f;		// Los números float llevan detrás una letra 'f' (o 'F')
+	float ejemploNumeroReal = 3.14f;		// Los números float llevan detrás una letra 'f' (o 'F') y, en caso de tener decimales, se separan con un punto (no una coma)
 	char ejemploCaracter = 'a';				// Los caracteres se escriben siempre entre comillas simples
 	string ejemploTexto = "¡Hola, mundo!";	// Los textos se escriben siempre entre comillas dobles
 	bool ejemploBooleano = true;			// En los booleanos se pone simplemente true o false sin ningún tipo de marca adicional
