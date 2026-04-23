@@ -11,7 +11,7 @@ public class CreacionDeVariablesApuntes : MonoBehaviour
 	//		- Se crean una sola vez, pero se pueden usar tantas veces como queramos (y, si modificamos el dato de una variable, ese dato cambiará en todos los sitios donde estemos usando la variable)
 
 
-	// ----- Realiza los ejercicios del siguiente documento: CreacionDeVariablesEjerciciosA -----
+	// ----- Ahora puedes realizar los EJERCICIOS A de creación de variables -----
 	
 
 	// -------------------------------------------------- B. DECLARACIÓN DE VARIABLES (tipos) --------------------------------------------------
@@ -37,6 +37,9 @@ public class CreacionDeVariablesApuntes : MonoBehaviour
 	char caracter;	// Letra, símbolo o número de una sola cifra
 	string texto;	// Conjunto de caracteres que forman un texto
 	bool booleano;	// Verdadero o falso
+
+
+	// ----- Ahora puedes realizar los EJERCICIOS B de creación de variables -----
 	
 
 	// -------------------------------------------------- C. DECLARACIÓN DE VARIABLES (nombres) --------------------------------------------------
@@ -82,12 +85,15 @@ public class CreacionDeVariablesApuntes : MonoBehaviour
 
 	char ________;			// Esto funciona, pero no es lo recomendado: con ese nombre es imposible saber qué es lo que hace esta variable
 	char letraInicial;		// Correcto
+
+
+	// ----- Ahora puedes realizar los EJERCICIOS C de creación de variables -----
 	
 
 	// -------------------------------------------------- D. INICIALIZACIÓN DE VARIABLES --------------------------------------------------
 
 	
-	// Esto que acabamos de hacer aquí arriba se llama declarar (crear) variables, pero sin inicializarlas (es decir, sin guardar ningún dato en ellas)
+	// Esto que hemos hecho arriba se llama declarar (crear) variables, pero sin inicializarlas (es decir, sin guardar ningún dato en ellas)
 	// Aunque declarar una variable sin inicializarla puede ser correcto y a veces nos interesará hacerlo así, en otras ocasiones nos va a venir mejor declararlas e inicializarlas a la vez
 	// Para inicializar una variable (guardar un dato en ella) tendremos que utilizar el símbolo de igual (=) seguido del dato que queramos guardar en la variable
 
@@ -121,4 +127,7 @@ public class CreacionDeVariablesApuntes : MonoBehaviour
 		Debug.Log(ejemploTexto);
 		Debug.Log(ejemploBooleano);
 	}
+
+
+	// ----- Ahora puedes realizar los EJERCICIOS D de creación de variables -----
 }

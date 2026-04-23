@@ -23,7 +23,7 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 	// Con los textos, sin embargo, no pasa lo mismo: si un string tiene valor nulo y lo usamos, por lo general dará error, porque el valor null lo que hace es indicar que en esa variable no hay ningún dato guardado
 	// Por tanto, al no haber absolutamente nada en esa variable, en la mayoría de casos no podremos hacer nada con ella
 
-	private void Awake()
+	void Awake()
 	{
 		// -------------------------------------------------- B. VALORES POR DEFECTO (en variables declaradas dentro de un método) --------------------------------------------------
 
@@ -136,7 +136,7 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		Debug.Log(texto.Length); // Como la variable texto ya está inicializada, ha dejado de tener un valor nulo y, por tanto, podemos acceder a todas sus características y funcionalidades sin que aparezcan errores
 	}
 
-	private void Update()
+	void Update()
 	{
 		// -------------------------------------------------- F. APUNTES ADICIONALES --------------------------------------------------
 

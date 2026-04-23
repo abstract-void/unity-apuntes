@@ -22,7 +22,7 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 	//		- Si dividimos un número entre 2 y el resto es 0, entonces ese número es par:	4 % 2 = 0
 	//		- Si dividimos un número entre 2 y el resto es 1, entonces ese número es impar:	3 % 2 = 1
 	
-	private void Awake()
+	void Awake()
 	{
 		// -------------------------------------------------- B. OPERACIONES MATEMÁTICAS (usándolas sin guardar el resultado en una variable) --------------------------------------------------
 
@@ -249,13 +249,15 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 
 		// Esto, sin embargo, solo se puede hacer con la suma: los demás operadores no son compatibles con textos
 
-		string error;
+		string error = "El único operador compatible con los textos es el de suma (+)";
 
 		//error = textoA - textoB;		// ¡Error! No se pueden restar textos
 		//error = textoA * textoB;		// ¡Error! No se pueden multiplicar textos
 		//error = textoA / textoB;		// ¡Error! No se pueden dividir textos (y, en consecuencia, tampoco obtener su módulo)
 		//error = -error;				// ¡Error! No se puede "invertir" un texto
 		//error++;						// ¡Error! Esto tampoco se puede hacer
+
+		Debug.Log(error);
 
 		holaMundo = "¡" + holaMundo;	// Esto sí que se puede hacer
 		holaMundo += "!";				// Y esto también

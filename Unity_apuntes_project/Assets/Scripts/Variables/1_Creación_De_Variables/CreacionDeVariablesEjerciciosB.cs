@@ -6,22 +6,15 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 {
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
-	// Haz los ejercicios en orden
-	// Intenta siempre hacer primero todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
-	// De hecho, si te ves con la confianza suficiente, abre este documento en un bloc de notas e intenta hacer los ejercicios ahí (en vez de usar Visual Studio u otro editor del estilo)
-	// Si al acabar te ha quedado algún ejercicio por hacer o por completar, échale un ojo a los apuntes (aquí abajo se indica a qué apuntes y a qué sección corresponden estos ejercicios)
-	// Si aun así sigues con alguna duda o tienes problemas con algún ejercicio concreto, recurre a las herramientas que necesites (o pregúntame), procurando siempre entenderlo todo bien
+
+	// ----- Antes de empezar, lee los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN B) -----
 
 
-	// ----- Si tienes dudas, puedes consultar los apuntes sobre CREACIÓN DE VARIABLES (SECCIÓN B) -----
+	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
+	// De hecho, si tienes la confianza suficiente, puedes probar a abrir este documento en un bloc de notas y hacer los ejercicios ahí (en vez de usar Visual Studio u otro editor del estilo)
+	// Si te ha faltado algo, lo puedes completar mirando los apuntes o recurriendo a las herramientas que necesites, pero intentando siempre entenderlo todo bien (no copies y pegues sin más)
+	// Ante cualquier duda, puedes preguntarme sin problema
 
-
-	void Awake()
-	{
-		Ejercicio1();
-		Ejercicio2();
-		Ejercicio3();
-	}
 
 	void Ejercicio1()
 	{
@@ -68,5 +61,12 @@ public class CreacionDeVariablesEjerciciosB : MonoBehaviour
 		string edad;
 		string correcto;
 		string nombre;
+	}
+
+	void Awake()
+	{
+		Ejercicio1();
+		Ejercicio2();
+		Ejercicio3();
 	}
 }
