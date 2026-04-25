@@ -50,7 +50,7 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		// -------------------------------------------------- C. USAR VARIABLES (Debug.Log) --------------------------------------------------
 
 
-		// Una forma de usar variables es ponerlas dentro de los paréntesis de ciertos métodos para que esos métodos hagan algo con ellas (como hemos hecho justo aquí arriba)
+		// Una forma de usar variables es ponerlas dentro de los paréntesis de ciertos métodos para que esos métodos hagan algo con ellas (como hemos hecho un poco más arriba)
 		// Dentro de los paréntesis de un Debug.Log, por ejemplo, podemos poner todo tipo de datos y variables con el fin de mostrarlos en la consola de Unity
 
 		Debug.Log("Mostramos las variables que han sido declaradas a nivel de clase (solo la primera está inicializada, las demás contienen valores por defecto)");
@@ -66,6 +66,9 @@ public class UsoDeVariablesApuntes : MonoBehaviour
 		Debug.Log("Mostramos primero el número 5 y a continuación una variable en la que hemos guardado el número 5 (el resultado en ambos casos es el mismo)");
 		Debug.Log(5);			// Esto muestra el número 5
 		Debug.Log(unNumero);	// Esto también muestra el número 5, porque ese es el dato que está guardado en la variable
+
+
+		// ----- Ahora puedes realizar los EJERCICIOS C de uso de variables -----
 		
 
 		// -------------------------------------------------- D. USAR VARIABLES (transferir datos) --------------------------------------------------
