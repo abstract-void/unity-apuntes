@@ -34,19 +34,38 @@ public class OperacionesConVariablesEjerciciosD : MonoBehaviour
 
 	void Ejercicio2()
 	{
-		// Abajo aparecen una variable principal y cinco secundarias
-		// Realiza cinco operaciones matemáticas con el número principal, usando una de las variables secundarias en cada operación (en el orden que te parezca correcto, pero sin que se repita ninguna)
-		// Tras cada operación, el número principal debe tener el valor que se indique en los comentarios de abajo
-
-		// Variable principal
-		int numeroPrincipal = 5;
-
-		// Variables secundarias
+		// Realiza las operaciones necesarias para obtener los resultados que se indican abajo (usa todas las variables de la siguiente lista sin repetir ninguna)
 		int numeroA = 2;
 		int numeroB = 5;
 		int numeroC = 3;
 		int numeroD = 4;
 		int numeroE = 2;
+
+		// Si tienes dudas, échale un ojo al ejemplo
+
+		int numeroPrincipal = 5;
+
+		// EJEMPLO
+
+		// Operación 1: el número principal debe valer 7 (muéstralo en Unity)
+		numeroPrincipal = numeroPrincipal + numeroE;
+		Debug.Log(numeroPrincipal);
+
+		// Operación 2: el número principal debe valer 21 (muéstralo en Unity)
+		numeroPrincipal = numeroPrincipal * numeroC;
+		Debug.Log(numeroPrincipal);
+		
+		// Operación 3: el número principal debe valer 16 (muéstralo en Unity)
+		numeroPrincipal = numeroPrincipal - numeroB;
+		Debug.Log(numeroPrincipal);
+		
+		// Operación 4: el número principal debe valer 4 (muéstralo en Unity)
+		numeroPrincipal = numeroPrincipal / numeroD;
+		Debug.Log(numeroPrincipal);
+
+		// Operación 5: el número principal debe valer 8 (muéstralo en Unity)
+		numeroPrincipal = numeroPrincipal * numeroA;
+		Debug.Log(numeroPrincipal);
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		// Operación 1: el número principal debe valer 9 (muéstralo en Unity)
 

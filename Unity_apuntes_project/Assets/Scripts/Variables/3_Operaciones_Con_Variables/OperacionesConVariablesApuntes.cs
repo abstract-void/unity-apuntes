@@ -250,46 +250,10 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		// ----- Ahora puedes realizar los EJERCICIOS F de operaciones con variables -----
 		
 
-		// -------------------------------------------------- G. OPERACIONES MATEMÁTICAS (encadenando operaciones) --------------------------------------------------
+		// -------------------------------------------------- G. NÚMEROS NEGATIVOS --------------------------------------------------
 
 
-		// Todas las operaciones que hemos realizado hasta ahora han sido simples: un número, otro número y un resultado, pero nada nos impide encadenar tantas operaciones como queramos
-		// Eso sí, al encadenar operaciones tenemos que tener en cuenta que aquí se aplican las mismas normas de precedencia o prioridad que en las matemáticas
-		// Por tanto, las multiplicaciones y divisiones (incluyendo el módulo) ocurren antes que las sumas y restas, y las operaciones entre paréntesis van antes que las demás
-
-		Debug.Log("Mostramos los resultados de encadenar varias operaciones");
-
-		// Vamos a reutilizar algunas de las variables que hemos ido declarando a lo largo de esta explicación
-		// Por ejemplo, numeroA (que vale 4) y numeroB (que vale 2)
-
-		resultado = numeroA + (numeroA - numeroB) * numeroA / numeroA % numeroB;	// 4 + (4 - 2) * 4 / 4 % 2	-> Primero se resuelve la operación entre paréntesis
-																					// 4 + 2 * 4 / 4 % 2		-> A continuación se realizan la multiplicación, la división y el módulo (de izquierda a derecha)
-																					// 4 + 8 / 4 % 2			-> Es decir, que en este caso primero se multiplica (porque la multiplicación está más a la izquierda)
-																					// 4 + 2 % 2				-> Entonces se divide (porque la división es la que ahora está más la izquierda)
-																					// 4 + 0					-> Y después se calcula el módulo (porque tiene la misma prioridad que la multiplicación y la división)
-		Debug.Log(resultado);														// = 4						-> Por último, se resuelven las sumas y las restas (también de izquierda a derecha)
-
-		// Al encadenar operaciones podemos usar también la forma resumida de hacerlo: +=, -=, *=, /= o %=
-		// Sin embargo, debemos tener en cuenta dos cosas:
-		//		- Eso podemos hacerlo única y exclusivamente en la primera de las operaciones
-		//		- Al usar uno de esos operadores, todo lo que va detrás del símbolo de igual tiene prioridad (es decir, que es como si todo lo que va detrás del signo de igual estuviera entre paréntesis)
-
-		resultado *= numeroB - (numeroA - numeroB) + numeroB % numeroA / numeroB;	// 4 * (2 - (4 - 2) + 2 % 4 / 2)	-> Paréntesis:	4 - 2 = 2
-																					// 4 * (2 - 2 + 2 % 4 / 2)			-> Módulo:		2 % 4 = 2
-																					// 4 * (2 - 2 + 2 / 2)				-> División:	2 / 2 = 1
-																					// 4 * (2 - 2 + 1)					-> Resta:		2 - 2 = 0
-																					// 4 * (0 + 1)						-> Suma:		0 + 1 = 1
-																					// 4 * 1							-> Multiplic.:	4 * 1 = 4
-		Debug.Log(resultado);														// = 4
-
-		// En la operación anterior hemos dejado la primera multiplicación para el final
-		// Eso es porque, cuando usamos uno de estos operadores: +=, -=, *=, /=, %=, todo lo que va detrás del símbolo de igual tiene prioridad
-		
-
-		// -------------------------------------------------- H. NÚMEROS NEGATIVOS --------------------------------------------------
-
-
-		// Por simplificar, en los ejemplos de arriba hemos usado números positivos todo el tiempo, pero las operaciones matemáticas se pueden realizar también con números negativos
+		// En todos los ejemplos anteriores hemos usado únicamente números positivos (por simplificar), pero las operaciones matemáticas se pueden realizar también con números negativos
 		// Además, si queremos es posible usar el símbolo de menos (-) para invertir el signo de una variable
 
 		int numeroPositivo = 1;
@@ -308,7 +272,7 @@ public class OperacionesConVariablesApuntes : MonoBehaviour
 		Debug.Log(numeroNegativo);	// Esto muestra -1, porque la variable numeroNegativo sigue siendo negativa
 		
 
-		// -------------------------------------------------- I. UNIÓN DE TEXTOS (STRING) --------------------------------------------------
+		// -------------------------------------------------- H. UNIÓN DE TEXTOS (STRING) --------------------------------------------------
 
 
 		// Las variables numéricas no son las únicas con las que se pueden utilizar operadores

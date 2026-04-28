@@ -48,23 +48,31 @@ public class OperacionesConVariablesEjerciciosE : MonoBehaviour
 
 	void Ejercicio3()
 	{
-		// Abajo aparecen una variable principal y seis secundarias
-		// Realiza seis operaciones matemáticas con el número principal, usando una de las variables secundarias en cada operación (en el orden que te parezca correcto, pero sin que se repita ninguna)
-		// Además, debes seguir estas pautas:
-		//		- Debes usar los siguientes operadores: +=, -=, *=, /= y %=
-		//		- El número principal debe ser distinto después de cada operación (ve mostrando cada resultado en Unity)
-		//		- El número principal debe ser 7 al final
-		
-		// Variable principal
-		int numeroPrincipal = 5;
-
-		// Variables secundarias
+		// Realiza las operaciones necesarias para hacer que el número principal sea 0 al final (usa todas las variables de la siguiente lista sin repetir ninguna)
 		int numeroA = 3;
 		int numeroB = 6;
 		int numeroC = 6;
 		int numeroD = 2;
 		int numeroE = 6;
 		int numeroF = 1;
+
+		// Si tienes dudas, échale un ojo al ejemplo
+
+		int numeroPrincipal = 5;
+
+		// EJEMPLO
+
+		numeroPrincipal %= numeroA; // 2
+		numeroPrincipal += numeroE; // 8
+		numeroPrincipal += numeroB; // 14
+		numeroPrincipal /= numeroD; // 7
+		numeroPrincipal -= numeroC; // 1
+		numeroPrincipal -= numeroF; // 0
+
+		// Cada operación que realices debe dar un resultado distinto, no puede haber ninguno repetido (ve mostrando en Unity el resultado de cada operación para asegurarte de que no se repita ninguno)
+		// Además, no puedes obtener exactamente los mismos resultados y en el mismo orden exacto que en el ejemplo
+		
+		numeroPrincipal = 5;
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	}
