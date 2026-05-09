@@ -64,11 +64,15 @@ Esta es la lista de contenidos incluidos hasta el momento:
 
 - [Apuntes A](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/A_Introducción/UsoDeVariablesApuntesA.cs)
 
+- [Ejercicios A](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/A_Introducción/UsoDeVariablesEjerciciosA.cs)
+
 </details>
 
 <details><summary>Valores por defecto (en clases)</summary>
 
 - [Apuntes B](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/B_Valores_Por_Defecto_Clases/UsoDeVariablesApuntesB.cs)
+
+- [Ejercicios B](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/B_Valores_Por_Defecto_Clases/UsoDeVariablesEjerciciosB.cs)
 
 </details>
 
@@ -76,11 +80,15 @@ Esta es la lista de contenidos incluidos hasta el momento:
 
 - [Apuntes C](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/C_Valores_Por_Defecto_Metodos/UsoDeVariablesApuntesC.cs)
 
+- [Ejercicios C](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/C_Valores_Por_Defecto_Metodos/UsoDeVariablesEjerciciosC.cs)
+
 </details>
 
 <details><summary>Campos y variables</summary>
 
 - [Apuntes D](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/D_Campos_Y_Variables/UsoDeVariablesApuntesD.cs)
+
+- [Ejercicios D](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/D_Campos_Y_Variables/UsoDeVariablesEjerciciosD.cs)
 
 </details>
 
@@ -88,17 +96,23 @@ Esta es la lista de contenidos incluidos hasta el momento:
 
 - [Apuntes E](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/E_Copia_De_Datos/UsoDeVariablesApuntesE.cs)
 
+- [Ejercicios E](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/E_Copia_De_Datos/UsoDeVariablesEjerciciosE.cs)
+
 </details>
 
 <details><summary>Intercambio de datos</summary>
 
 - [Apuntes F](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/F_Intercambio_De_Datos/UsoDeVariablesApuntesF.cs)
 
+- [Ejercicios F](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/F_Intercambio_De_Datos/UsoDeVariablesEjerciciosF.cs)
+
 </details>
 
 <details><summary>Acceso a características y funcionalidades</summary>
 
 - [Apuntes G](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/G_Acceso_Características_Funcionalidades/UsoDeVariablesApuntesG.cs)
+
+- [Ejercicios G](/Unity_apuntes_project/Assets/Scripts/Variables/2_Uso_De_Variables/G_Acceso_Características_Funcionalidades/UsoDeVariablesEjerciciosG.cs)
 
 </details>
 

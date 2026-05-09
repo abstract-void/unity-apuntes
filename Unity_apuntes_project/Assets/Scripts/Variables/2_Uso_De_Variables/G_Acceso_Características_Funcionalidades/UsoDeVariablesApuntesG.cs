@@ -25,7 +25,8 @@ public class UsoDeVariablesApuntesG : MonoBehaviour
 		texto = numero.ToString(); // Correcto
 
 		// Al hacer esto, lo que estamos haciendo es copiar un número entero en una variable de tipo string, algo que por lo general no sería correcto
-		// Sin embargo, al usar el ToString() no estamos simplemente copiando el valor sin más, sino que a la vez estamos convirtiendo esa copia en un texto (¡ojo!, solo la copia, el original sigue siendo un número)
+		// Sin embargo, al usar el ToString() no estamos simplemente copiando el valor sin más, sino que en el proceso estamos convirtiendo esa copia en un texto
+		// Es por eso por lo que al usar ToString() sí que es posible y correcto copiar un número en una variable de tipo string
 
 		Debug.Log("Mostramos un número entero y a continuación ese mismo número convertido en texto");
 		Debug.Log(numero);	// Esto muestra el número 10 (int)

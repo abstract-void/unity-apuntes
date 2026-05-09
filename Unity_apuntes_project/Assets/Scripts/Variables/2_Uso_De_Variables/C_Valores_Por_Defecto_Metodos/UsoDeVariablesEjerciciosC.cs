@@ -2,12 +2,12 @@
 
 using UnityEngine;
 
-public class UsoDeVariablesEjerciciosG : MonoBehaviour
+public class UsoDeVariablesEjerciciosC : MonoBehaviour
 {
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre USO DE VARIABLES (SECCIÓN G) -----
+	// ----- Antes de empezar, lee los apuntes sobre USO DE VARIABLES (SECCIÓN C) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
@@ -15,53 +15,54 @@ public class UsoDeVariablesEjerciciosG : MonoBehaviour
 	// Si te ha faltado algo, lo puedes completar mirando los apuntes o recurriendo a las herramientas que necesites, pero intentando siempre entenderlo todo bien (no copies y pegues sin más)
 	// Ante cualquier duda, puedes preguntarme sin problema
 
-
-	int ejercicioActual;
-	bool ejerciciosTerminados;
-
+	
 	void Ejercicio1()
 	{
-		// Añade o cambia lo que sea necesario para que este código de aquí abajo funcione
+		// Muestra en consola las variables que aparecen aquí abajo y, en caso de que se produzcan errores al intentar mostrarlas, haz lo que sea necesario para solucionarlos
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		/* // ---------------------------------------- ELIMINA ESTA LÍNEA ANTES DE EMPEZAR EL EJERCICIO
-		Debug.Log(int numeroPi = 3.14f);
-		Debug.Log(string nombre.Length);
-		*/ // ---------------------------------------- ELIMINA ESTA LÍNEA ANTES DE EMPEZAR EL EJERCICIO
+		int numeroEntero;
+		float numeroReal;
+		bool booleano;
+		char character;
+		string texto;
+
 	}
 
 	void Ejercicio2()
 	{
-		// Explica brevemente por qué el código del ejercicio anterior daba error (escribe tu respuesta en un string y, cuando la tengas, muéstrala en Unity)
+		// Las siguientes líneas de código así escritas dan error, ¿sabrías explicar por qué? (Escribe tu respuesta abajo entre las comillas y a continuación haz que se muestre en la consola de Unity)
+
+		//Debug.Log(booleano);
+		//bool booleano = true;
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		string respuesta = "";
 
 	}
 
 	void Ejercicio3()
 	{
-		// Sin consultarlo en la consola de Unity, indica qué valor crees que tendrán las siguientes cuatro variables (escribe cada respuesta en un string diferente y, cuando las tengas todas, muéstralas en Unity)
-
-		bool ejerciciosAcabados = ejerciciosTerminados;
-		int unEjercicio = ejercicioActual;
-		ejercicioActual = 3;
-		int otroEjercicio = ejercicioActual;
+		// En las siguientes líneas de código, si el primer Debug.Log() provoca un error, ¿por qué el segundo no?
 		
-		// Cuando ya tengas tus respuestas escritas (¡solo cuando ya las tengas!), muestra en Unity las cuatro variables anteriores para compararlas con tus respuestas (si te has equivocado, intenta pensar por qué)
+		string texto;
+		
+		//Debug.Log(texto);
+
+		texto = null;
+
+		Debug.Log(texto);
+
+		// Escribe tu respuesta abajo entre las comillas y a continuación haz que se muestre en la consola de Unity
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		string respuesta = "";
 
 	}
 
 	void Ejercicio4()
 	{
-		// Aquí abajo usamos varias variables que se han declarado e inicializado antes en este documento, pero algunas dan error. ¿Por qué? (Escribe tu respuesta en un string y, cuando la tengas, muéstrala en Unity)
-		
-		ejercicioActual = 4;
-		//ejerciciosAcabados = true;	// ¡Error!
-		ejerciciosTerminados = true;
-
-		//Debug.Log(unEjercicio);		// ¡Error!
-		//Debug.Log(otroEjercicio);		// ¡Error!
-		Debug.Log(ejercicioActual);
+		// Aquí abajo hay declarada una variable de tipo string, pero todavía no sabemos qué texto vamos a guardar en ella. ¿Qué valor por defecto podríamos darle sin que sea nulo?
+		// Dale a la variable el valor que consideres y a continuación muéstrala en la consola de Unity
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		string texto;
 
 	}
 

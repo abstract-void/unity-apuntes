@@ -130,7 +130,7 @@ GameObject:
   - component: {fileID: 34506855}
   - component: {fileID: 34506856}
   m_Layer: 0
-  m_Name: Ejercicios D
+  m_Name: Ejercicios E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -805,7 +805,7 @@ GameObject:
   - component: {fileID: 318058001}
   - component: {fileID: 318058002}
   m_Layer: 0
-  m_Name: Ejercicios A
+  m_Name: Ejercicios B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1510,7 +1510,7 @@ GameObject:
   - component: {fileID: 781000298}
   - component: {fileID: 781000299}
   m_Layer: 0
-  m_Name: Ejercicios F
+  m_Name: Ejercicios G
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1554,7 +1554,7 @@ GameObject:
   - component: {fileID: 795528878}
   - component: {fileID: 795528879}
   m_Layer: 0
-  m_Name: Ejercicios G
+  m_Name: Ejercicios D
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2755,7 +2755,7 @@ GameObject:
   - component: {fileID: 2000805930}
   - component: {fileID: 2000805931}
   m_Layer: 0
-  m_Name: Ejercicios C
+  m_Name: Ejercicios A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2843,7 +2843,7 @@ GameObject:
   - component: {fileID: 2081318578}
   - component: {fileID: 2081318579}
   m_Layer: 0
-  m_Name: Ejercicios E
+  m_Name: Ejercicios F
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2887,7 +2887,7 @@ GameObject:
   - component: {fileID: 2140967712}
   - component: {fileID: 2140967713}
   m_Layer: 0
-  m_Name: Ejercicios B
+  m_Name: Ejercicios C
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

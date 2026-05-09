@@ -2,12 +2,12 @@
 
 using UnityEngine;
 
-public class UsoDeVariablesEjerciciosE : MonoBehaviour
+public class UsoDeVariablesEjerciciosF : MonoBehaviour
 {
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre USO DE VARIABLES (SECCIÓN E) -----
+	// ----- Antes de empezar, lee los apuntes sobre USO DE VARIABLES (SECCIÓN F) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
@@ -35,8 +35,9 @@ public class UsoDeVariablesEjerciciosE : MonoBehaviour
 		string saludoA = "¡Hola!";
 		string saludoB = "¡Buenas!";
 
-		// Intenta intercambiar el valor de estas variables, pero sin declarar ninguna más. ¿Qué problema hay? (Escribe tu respuesta en una variable de tipo string y, cuando la tengas, muéstrala en Unity)
-		// ¡Ojo! No vale hacer esto de aquí abajo (porque estamos suponiendo que no sabemos los datos de las variables)
+		// Intenta intercambiar el valor de estas variables, pero esta vez sin declarar ninguna más. ¿Qué problema surge? (Escribe tu respuesta en una variable de tipo string y, cuando la tengas, muéstrala en Unity)
+
+		// ¡Ojo! No vale hacer esto de aquí abajo (porque estamos suponiendo que no sabemos lo que hay en cada variable)
 		//		saludoA = "¡Buenas!";	// Esto no vale
 		//		saludoB = "¡Hola!";		// Esto no vale
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -56,15 +57,15 @@ public class UsoDeVariablesEjerciciosE : MonoBehaviour
 		numeroC = numeroB;
 		numeroB = numeroD;
 
-		// Sin consultarlo en la consola de Unity, indica cuál es el valor de los números A, B y C (declara tres variables de tipo string, escribe en ellas tus respuestas y a continuación muéstralas en Unity)
-		// Cuando ya tengas tus respuestas escritas (¡solo cuando ya las tengas!), muestra en la consola de Unity los números A, B y C para compararlos con tus respuestas (si te has equivocado, intenta pensar por qué)
+		// Sin consultarlo en la consola de Unity, indica el valor de los números A, B y C (declara aquí abajo una variable de tipo string, escribe en ella tu respuesta y a continuación muéstrala en la consola de Unity)
+		// Cuando ya tengas tu respuesta escrita (¡solo cuando ya la tengas!), muestra en la consola de Unity los números A, B y C para compararlos con tu respuesta (si te has equivocado, intenta pensar por qué)
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 		
 	}
 
 	void Ejercicio4()
 	{
-		// Vamos a hacer algo muy parecido a lo que hay en el ejercicio anterior, pero con una ligera diferencia
+		// Vamos a hacer algo muy parecido a lo que está hecho en el ejercicio anterior, pero con una ligera diferencia
 
 		int numeroA = 1;
 		int numeroB = 2;
@@ -72,7 +73,7 @@ public class UsoDeVariablesEjerciciosE : MonoBehaviour
 
 		int numeroD = numeroA;
 		numeroA = numeroC;
-		numeroB = numeroD; // Esto en el ejercicio anterior ocurría después
+		numeroB = numeroD; // Esta línea en el ejercicio anterior estaba justo después
 		numeroC = numeroB;
 		
 		Debug.Log(numeroA);

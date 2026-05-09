@@ -2,12 +2,12 @@
 
 using UnityEngine;
 
-public class UsoDeVariablesEjerciciosF : MonoBehaviour
+public class UsoDeVariablesEjerciciosG : MonoBehaviour
 {
 	// -------------------------------------------------- RECOMENDACIONES --------------------------------------------------
 
 
-	// ----- Antes de empezar, lee los apuntes sobre USO DE VARIABLES (SECCIÓN F) -----
+	// ----- Antes de empezar, lee los apuntes sobre USO DE VARIABLES (SECCIÓN G) -----
 
 
 	// Una vez que hayas empezado con los ejercicios, intenta avanzar todo lo que puedas sin mirar los apuntes ni usar ninguna herramienta adicional
@@ -18,25 +18,33 @@ public class UsoDeVariablesEjerciciosF : MonoBehaviour
 	
 	void Ejercicio1()
 	{
-		// El código de aquí abajo provoca un error al probarlo en Unity. Cambia o añade lo que sea necesario para que deje de dar error (sin eliminar ninguna línea del código)
+		// Si quisiéramos acceder a una característica o funcionalidad de una determinada variable, ¿qué signo de puntuación tendríamos que usar y donde lo colocaríamos?
+		// Escribe tu respuesta en una variable de tipo string y, cuando la tengas, muéstrala en Unity
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-		string texto = null;
 
-		Debug.Log(texto);
-		Debug.Log(texto.Length);
 	}
 
 	void Ejercicio2()
 	{
-		// Explica brevemente por qué un Debug.Log del ejercicio anterior daba error y el otro no, si en los dos está la misma variable (escribe tu respuesta en un string y, cuando la tengas, muéstrala en Unity)
-		// Una vez que hayas terminado, muestra en Unity también la cantidad de caracteres que tiene tu respuesta
-		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+		// Échale un ojo a las siguientes líneas de código
 		
+		float numeroReal;
+		string texto;
+		
+		numeroReal = 5.5f;
+
+		//texto = numeroReal;
+		texto = numeroReal.ToString();
+
+		// Las dos últimas líneas de este código son parecidas, pero una da error y la otra no. ¿Sabrías explicar por qué? (Escribe tu respuesta en una variable de tipo string y, cuando la tengas, muéstrala en Unity)
+		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 	}
 
 	void Ejercicio3()
 	{
-		// Inventa una conversación de al menos 6 o 7 líneas entre dos personajes. Muestra en Unity cada línea de la conversación y, aparte, la cantidad de caracteres que tiene cada una
+		// Si declaramos dos variables de tipos distintos e intentamos acceder a las características y funcionalidades de cada una, ¿esas características y funcionalidades serán exactamente las mismas en ambos casos?
+		// Escribe tu respuesta en una variable de tipo string y, cuando la tengas, muéstrala en Unity
 		// --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 	}
